@@ -1,14 +1,159 @@
 
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--==================== FONT ====================-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Responsive Portfolio Website</title>
+</head>
 <body>
+  <div class="container relative">
+    <div class="bg">
+        <img src="images/Liquid_Bg.svg" alt="">
+    </div>
 
-<h1>The audio autoplay attribute</h1>
+    <div class="bg_features">
+        <img src="images/Mask.svg" alt="">
+    </div>
+      <!--==================== HEADER ====================-->
+      <header class="header flex" id="header">
+        
 
-<p>Click on the play button to play a sound:</p>
+        <div class="header_logo">
+            <img src="images/Luxi-Hosting-Logo.svg" alt="">
+            <h1 class="header_title">Social</h1>
+        </div>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AsNCJddUJ7k?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <ul class="nav_list flex">
+            <li class="nav_item active"><a href="#" class="nav_link">Feature</a></li>
+            <li class="nav_item"><a href="#" class="nav_link">Discover</a></li>
+            <li class="nav_item"><a href="#" class="nav_link">Stories</a></li>
+            <li class="nav_item"><a href="#" class="nav_link">Community</a></li>
+            <li class="nav_item"><a href="#" class="nav_link">Blog</a></li> 
+            <span class="close_toggle">X</span>
+        </ul>
 
+        <ul class="setting flex">
+            <h3 class="setting_login">Login</h3>
+            <p class="setting_detail">SEE DETAIL</p>
+            <span class="setting_icon"><img src="images/Shape.svg" alt=""></span>
+        </ul>
+
+        <div class="btn_toggle">
+            CLICK
+        </div>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+           <div class="home_container grid">
+                <div class="home_content">
+                    <h1 class="home_content_title title">Sed Imperdiet Enim li Vitae Viverra Justo</h1>
+                    <p class="home_content_description">Nam sollicitud nunc, cursus eros vulputate sed. Vestibulum lobortis.</p>
+                    <div class="home_content_social"><img src="images/Link_Store.svg" alt=""></div>
+                </div>
+                <div class="home_picture">
+                    <img src="images/Vector.svg" alt="">
+                </div>
+           </div>
+        </section>
+        <!--==================== INFORMATION ====================-->
+        <section class="information section" id="home">
+            <div class="information_container flex">
+                <div class="information_block">
+                    <h1 class="information_block_title">Business Solution</h1>
+                    <p class="information_block_description">Interdum et malesuada ac ante…</p>
+                </div>
+                
+                <div class="information_block">
+                    <h1 class="information_block_title">Free project quote</h1>
+                    <p class="information_block_description">Interdum et malesuada ac ante…</p>
+                </div>
+                
+                <div class="information_block">
+                    <h1 class="information_block_title">Nulla lobortis nunc</h1>
+                    <p class="information_block_description">Interdum et malesuada ac ante…</p>
+                </div>
+            </div>
+         </section>
+        <!--==================== FEATURES ====================-->
+        <section class="features section" id="home">
+            <h1 class="features_title title">Features</h1>
+            <div class="features_container flex">
+                <div class="features_logo"><img src="images/Feature1.svg" alt=""></div>
+                <div class="features_content">
+                    <h1 class="features_content_title">Vivamus sit amet interdum</h1>
+                    <p class="features_content_description">Nam sollicitudin dignissim nunc, cursus ullamcorper eros vulputate sed. Vestibulum sit amet tortor sit amet libero lobortis.</p>
+                </div>
+            </div>
+
+            <div class="features_container flex">
+                <div class="features_logo"><img src="images/Feature2.svg" alt=""></div>
+                <div class="features_content">
+                    <h1 class="features_content_title">Vivamus sit amet interdum</h1>
+                    <p class="features_content_description">Maecenas nisl libero, tincidunt id odio id, feugiat vulputate quam vestibulum feugiat.</p>
+                </div>
+            </div>
+
+            <div class="features_container flex">
+                <div class="features_logo"><img src="images/Artworks.svg" alt=""></div>
+                <div class="features_content">
+                    <h1 class="features_content_title">Vivamus sit amet interdum</h1>
+                    <p class="features_content_description">Vestibulum sit amet tortor sit amet libero lobortis semper at et odio. </p>
+                </div>
+            </div>
+
+            <div class="features_desc flex">
+                <div class="features_desc_block">
+                    <h2 class="features_desc_block_title title">+200M</h2>
+                    <p class="features_desc_block_description">Download</p>
+                </div>
+
+                <div class="features_desc_block">
+                    <h2 class="features_desc_block_title title">+18K</h2>
+                    <p class="features_desc_block_description">Communities</p>
+                </div>
+
+                <div class="features_desc_block">
+                    <h2 class="features_desc_block_title title">+480M</h2>
+                    <p class="features_desc_block_description">Members</p>
+                </div>
+            </div>
+         </section>
+    <!--==================== DISCOVER ====================-->
+    <section class="discover section" id="home">
+        <h1 class="discover_title title">Discover</h1>
+        <div class="discover_content"><img src="images/Discover.svg" alt=""></div>
+     </section>
+
+     <!--==================== STORY ====================-->
+    <section class="discover section" id="home">
+        <div class="discover_content"><img src="images/Testimonial.svg" alt=""></div>
+     </section>
+
+     <!--==================== COMMUNITY ====================-->
+    <section class="discover section" id="home">
+        <div class="discover_content"><img src="images/Top Community 1.svg" alt=""></div>
+     </section>
+
+     <!--==================== UPDATE ====================-->
+    <section class="discover section" id="home">
+        <div class="discover_content"><img src="images/Latest News.svg" alt=""></div>
+     </section>
+    </main>
+  </div>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <img src="images/Footer.png" alt="">
+    </footer>
+    <!--==================== MAIN JS ====================-->
+    <script src="js/main.js"></script>
 </body>
 </html>
